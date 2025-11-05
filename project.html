@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savish Homes</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ===== Navbar ===== -->
+    <div id="header"></div>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero-about">
+      <div class="overlay"></div>
+      <div class="hero-content-about">
+        <h1>Exquisite Homes <br />Begin with a Vision</h1>
+      </div>
+    </section>
+
+    <!--About section-->
+    <section class="about">
+      <div class="about-content">
+        <p>
+          At Savish Homes, we may be newly established — but our team brings
+          over 5 years of hands-on residential construction experience across
+          Sydney. From elegant duplexes to contemporary single-storey homes,
+          we’re building our first chapter with the same quality and care that
+          will define every home we deliver.
+        </p>
+        <br />
+        <p class="gp">
+          Stay tuned — our first completed homes will be featured soon.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Project Gallery ===== -->
+    <!-- ===== Featured Projects Section ===== -->
+    <section class="featured-projects">
+      <h2>Featured Projects</h2>
+
+      <div class="projectt-grid">
+        <div class="projectt-card">
+          <img src="images/croydon.png" alt="Croydon Project" />
+          <p>Single Storey</p>
+        </div>
+
+        <div class="projectt-card">
+          <img src="images/kellyville.jpg" alt="Kellyville Project" />
+          <p>Double Storey</p>
+        </div>
+
+        <div class="projectt-card">
+          <img src="images/strathfields.jpg" alt="Strathfields Project" />
+          <p>Duplex</p>
+        </div>
+
+        <div class="projectt-card">
+          <img src="images/concord.jpg" alt="Concord Project" />
+          <p>Granny Flats</p>
+        </div>
+      </div>
+
+      <button
+        class="view-all-btn"
+        onclick="window.location.href='projects.html'"
+      >
+        View All <span class="arrow">→</span>
+      </button>
+    </section>
+
+    <section class="clients-section">
+      <div class="choose-us">
+        <h2>Why Clients Choose Us</h2>
+        <div class="choose-icons">
+          <div><i class="fas fa-check"></i> Luxury Finishes</div>
+          <div><i class="fas fa-check"></i> Transparent Process</div>
+          <div><i class="fas fa-check"></i> Fixed Price</div>
+          <div><i class="fas fa-check"></i> On-Time Delivery</div>
+        </div>
+      </div>
+    </section>
+    <!-- cta section  -->
+    <section class="cta-section">
+      <div class="cta-container">
+        <h1>Build Your Dream Home - Let's Talk!</h1>
+        <a href="contact.html" class="cta-button"> Let’s Build Together → </a>
+      </div>
+    </section>
+    <div id="footer"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/main.js"></script>
+  </body>
+</html>
