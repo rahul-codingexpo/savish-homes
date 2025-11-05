@@ -102,9 +102,6 @@ body {
     cursor: pointer;
     z-index: 200;
 }
-.close{
-    display: none;
-}
 
 /* .hamburger span {
     height: 3px;
