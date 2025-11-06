@@ -1139,8 +1139,9 @@ hr {
         padding: 40px 0px;
     }
     .choose-us h2, .testimonials h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
+       
 }
 /* Responsive */
 @media (max-width: 768px) {
@@ -1148,7 +1149,7 @@ hr {
         padding: 50px 20px;
     }
     .process-section h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 50px;
         margin-bottom: 40px;
     }
@@ -1163,13 +1164,13 @@ hr {
     }
 
     .content h3 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .content p{
         font-size: 1.3rem;
     }
     .inclusion h3{
-        font-size: 2.5rem;
+        font-size: 1.6rem;
     }
     .inclusion ul li{
         font-size: 1.3rem;
@@ -1249,7 +1250,7 @@ hr {
 /* Projects page css */
 .project-category-nav {
   background-color: #0b1a2b; /* dark blue background */
-  padding: 20px 0;
+  padding: 20px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1368,7 +1369,7 @@ hr {
 
 .project-title {
   font-family: 'Playfair Display', serif;
-  font-size: 32px;
+  font-size: 1.6rem;
   margin: 6px 0;
   color: #FAF9F7;
 }
@@ -1493,7 +1494,7 @@ hr {
     }
 
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 15px;
     }
 
@@ -1590,7 +1591,7 @@ hr {
             line-height: 1.4;
         }
         .about-us{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         .about-content p {
             font-size: 1.2rem;
@@ -1599,7 +1600,7 @@ hr {
             text-align: justify;
         }
         .featured-projects h2{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
                 .view-all-btn{
                     padding: 10px 10px;
@@ -1630,7 +1631,8 @@ hr {
             margin-top: 50px;
         }
         .partner-logos h2{
-            font-size: 50px;
+            margin-top: 40px;
+            font-size: 2rem;
         }
         .logos {
             display: flex;
@@ -1740,7 +1742,7 @@ hr {
 }
                 .footer-logo h1 {
                     font-family: "Playfair Display", serif;
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     color: #FAF9F7;
                     font-weight: 600;
                 }
@@ -1779,11 +1781,11 @@ hr {
                     line-height: 2rem;
                 }
                 .cta-section h1{
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 .hero-content-about h1{
                     margin-top: 70px;
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 .footer-bottom {
     text-align: center;
