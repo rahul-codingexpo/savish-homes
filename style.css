@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 120px;
+    padding: 10px 120px;
     background: rgba(0, 0, 0, 0.306);
     z-index: 100;
 }
@@ -54,7 +54,7 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .nav-links a {
@@ -62,7 +62,7 @@ body {
     text-decoration: none;
     color: #FAF9F7;
     font-weight: 500;
-    font-size:2rem;
+    font-size:25px;
     transition: 0.3s;
 }
 
@@ -88,7 +88,7 @@ body {
     text-decoration: none;
     padding: 5px 20px;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 25px;
     transition: 0.3s;
 }
 
@@ -119,7 +119,7 @@ body {
   background-color: #0C1A2B; /* Dark navy background */
   border-top: 1px solid #d4af37;  /* Gold border line */
   border-bottom: 1px solid #d4af37;
-  padding: 40px 10%;
+  padding: 30px 120px;
 }
 
 .cta-container {
@@ -132,7 +132,7 @@ body {
 .cta-section h1 {
   color: #ffffff;
   font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
+  font-size: 50px;
   font-weight: 600;
   margin: 0;
 }
@@ -141,7 +141,7 @@ body {
   background-color: #d4af37; /* Gold button */
   color: #071a2f; /* Dark navy text */
   text-decoration: none;
-    font-size: 2rem;
+    font-size: 25px;
         padding: 20px 24px;
   font-family: 'Lato', sans-serif;
   transition: all 0.3s ease;
@@ -194,7 +194,7 @@ body {
 
 .footer-logo h1 {
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
+    font-size: 50px;
     color: #FAF9F7;
     font-weight: 600;
 }
@@ -207,13 +207,13 @@ body {
     font-family: "Playfair Display", serif;
     color: #FAF9F7;
     font-weight: 500;
-    font-size: 2rem;
-    margin-bottom: 40px;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 .footer-column p{
-    font-size: 1.8rem;
-    word-spacing: 7px;
-    line-height: 2.5rem;
+    font-size: 25px;
+    word-spacing: 5px;
+    line-height: 1.4;
 }
 
 .footer-column ul {
@@ -223,7 +223,7 @@ body {
 
 .footer-column ul li {
     margin-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 25px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -233,15 +233,17 @@ body {
 .footer-column ul li a {
     color: #FAF9F7;
     text-decoration: none;
-font-size: 1.8rem;
+font-size: 25px;
     transition: color 0.3s ease;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
 }
 
 .footer-column ul li a:hover {
     color: #CFA13F;
 }
-
+.quick-links{
+    margin-left: 120px;
+}
 .contact-info i {
     color: #CFA13F;
     margin-right: 25px;
@@ -271,7 +273,7 @@ hr {
     text-align: center;
     color: #E4E4E4;
     padding: 20px 0;
-    font-size: 1.8rem;
+    font-size: 25px;
 }
 
 .footer-bottom .privacy {
@@ -324,7 +326,7 @@ hr {
 
 .hero-content h1,.hero-content-about h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 4.5rem;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -332,7 +334,7 @@ hr {
 }
 
 .hero-content p {
-    font-size: 1.8rem;
+    font-size: 25px;
     color: #E4E4E4;
     /* Ash Grey for subtext */
     margin-bottom: 40px;
@@ -348,7 +350,7 @@ hr {
 .btn-filled {
     padding: 12px 28px;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 25px;
     text-decoration: none;
     border: 4px solid #CFA13F;
     transition: 0.3s;
@@ -362,7 +364,7 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -370,13 +372,15 @@ hr {
     color: #CFA13F;
 }
 .about-content p{
-    font-size: 1.6rem;
-    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    line-height: 1.4;
     color: #E4E4E4;
+    word-spacing: 5px;
     text-align: center;
 }
 .about-content .gp{
-    font-size: 1.6rem;
+    font-size: 25px;
     font-style: italic;
     line-height: 1.5;
     color: #CFA13F;
@@ -414,7 +418,7 @@ hr {
 
 .glimpse-section h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 50px;
     color: #FAF9F7;
     margin-bottom: 60px;
 }
@@ -450,7 +454,7 @@ hr {
 
 .glimpse-card p {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #FAF9F7;
     line-height: 1.4;
 }
@@ -467,7 +471,7 @@ hr {
 
 .featured-projects h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 50px;
     color: #FAF9F7;
@@ -510,13 +514,13 @@ hr {
 .process-section {
     background-color: #061024;
     color: #fff;
-    padding: 80px 15%;
+    padding: 80px 120px;
     font-family: "Playfair Display", serif;
     line-height: 1.6;
 }
 .process-section h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
@@ -524,11 +528,11 @@ hr {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .number {
-    font-size: 150px;
+    font-size: 130px;
     font-weight: 500;
     color: #b78b1e;
     font-family: "Playfair Display", serif;
@@ -539,7 +543,7 @@ hr {
 
 .content h3 {
     color: #b78b1e;
-    font-size: 35px;
+    font-size: 32px;
     letter-spacing: 1px;
     font-weight: 700;
     margin-bottom: 0px;
@@ -549,6 +553,8 @@ hr {
     margin-bottom: 10px;
     color: #ccc;
     font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    word-spacing: 5px;
     font-size: 25px;
 }
 
@@ -585,7 +591,7 @@ hr {
 
 .project-card p {
     font-family: 'Lato', sans-serif;
-    font-size: 1.8rem;
+    font-size: 25px;
     color: #FAF9F7;
     padding: 25px 0;
     letter-spacing: 1px;
@@ -620,7 +626,7 @@ hr {
 
 .projectt-card p {
     font-family: 'Lato', sans-serif;
-    font-size: 1.8rem;
+    font-size: 25px;
     color: #FAF9F7;
     padding: 25px 0;
     letter-spacing: 1px;
@@ -634,7 +640,7 @@ hr {
     color: #0C1A2B;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 25px;
     border: none;
     padding: 20px 20px;
     cursor: pointer;
@@ -661,7 +667,7 @@ hr {
 .choose-us h2,
 .testimonials h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
+    font-size: 50px;
     margin-bottom: 30px;
     color: #FAF9F7;
 }
@@ -672,7 +678,7 @@ hr {
     flex-wrap: wrap;
     gap: 20px;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #FAF9F7;
     padding: 0 150px;
     margin-bottom: 70px;
@@ -745,8 +751,8 @@ hr {
 }
 .testimonial-text {
     font-family: 'Lato', sans-serif;
-    font-size: 1.8rem;
-    line-height: 1.2;
+    font-size: 25px;
+    line-height: 1.4;
     word-spacing: 5px;
     color: #E4E4E4;
     max-height: 140px;
@@ -763,7 +769,7 @@ hr {
     display: inline-block;
     margin-top: 10px;
     color: #CFA13F;
-    font-size: 1.8rem;
+    font-size: 25px;
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
@@ -793,14 +799,14 @@ hr {
 
 .client-info h4 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 500;
     color: #FAF9F7;
     font-family: 'Lato', sans-serif;
 }
 
 .client-info span {
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #E4E4E4;
     font-family: 'Lato', sans-serif;
 }
@@ -808,7 +814,7 @@ hr {
 .inclusions-section {
     background-color: #061024;
     color: #ffffff;
-    padding: 80px 10%;
+    padding: 80px 120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px 60px;
@@ -818,7 +824,7 @@ hr {
 .inclusion h3 {
     color: #c9972e;
     font-family: "Playfair Display", serif;
-    font-size: 45px;
+    font-size: 32px;
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -830,8 +836,8 @@ hr {
 
 .inclusion ul li {
     color: #e0e0e0;
-    line-height: 1.3;
-    font-size: 30px;
+    line-height: 1.4;
+    font-size: 25px;
 }
 
 /* Divider line between grid rows */
@@ -880,9 +886,9 @@ hr {
 
 .our-testimonial-text {
     margin: 20px 0;
-    font-size: 1.8rem;
+    font-size: 25px;
     color: #e0e0e0;
-    line-height: 1.6;
+    line-height: 1.4;
     height: 140px;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -896,7 +902,7 @@ hr {
     display: inline-block;
     color: #c9972e;
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -926,14 +932,14 @@ hr {
 
 .our-client-info h4 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 25px;
     font-weight: 500;
     color: #fff;
 }
 
 .our-client-info p {
     margin: 2px 0 0;
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #ccc;
 }
 
@@ -946,7 +952,7 @@ hr {
 
 .contact-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
     margin-bottom: 50px;
     font-family: "Playfair Display", serif;
 }
@@ -966,7 +972,7 @@ hr {
 }
 
 .contact-info h3 {
-    font-size: 2rem;
+    font-size: 32px;
     margin-bottom: 25px;
     font-family: "Playfair Display", serif;
 }
@@ -975,7 +981,7 @@ hr {
     display: flex;
     align-items: center;
     margin-bottom: 18px;
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 .info-item i {
@@ -994,7 +1000,7 @@ hr {
 }
 
 .contact-form h3 {
-    font-size: 2rem;
+    font-size: 32px;
     margin-bottom: 20px;
     font-weight: 500;
     font-family: "Playfair Display", serif;
@@ -1003,7 +1009,7 @@ hr {
 .contact-form label {
     display: block;
     margin-top: 15px;
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #ccc;
 }
 
@@ -1015,7 +1021,7 @@ hr {
     padding: 10px;
     margin-top: 5px;
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     border-radius: 3px;
 }
 
@@ -1034,7 +1040,7 @@ hr {
     float: right;
     border: none;
     padding: 20px 20px;
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: 500;
     margin-top: 25px;
     cursor: pointer;
@@ -1047,7 +1053,7 @@ hr {
 
 .note {
     margin-top: 25px;
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #bbb;
     text-align: center;
 }
@@ -1114,7 +1120,7 @@ hr {
 
 @media (max-width: 768px) {
     .featured-projects {
-        padding: 60px 20px;
+        padding: 20px 20px;
     }
 
     .project-card {
@@ -1126,8 +1132,11 @@ hr {
     }
     .clients-section{
         color: #FAF9F7;
-    padding: 80px 20px;
+    padding: 0px 20px;
     text-align: center;
+    }
+    .choose-us{
+        padding: 40px 0px;
     }
     .choose-us h2, .testimonials h2{
         font-size: 2.5rem;
@@ -1170,6 +1179,8 @@ hr {
 @media (max-width: 992px) {
     .glimpse-items {
         gap: 40px;
+        display: flex;
+        justify-content: space-around;
     }
 }
 
@@ -1230,6 +1241,9 @@ hr {
     border: 3px solid #0b1a33;
     overflow: hidden;
 }
+.quick-links{
+    margin-left: 0px;
+}
 }
 
 /* Projects page css */
@@ -1251,7 +1265,7 @@ hr {
 
 .project-category-nav li {
   color: #e5e5e5;
-  font-size: 22px;
+  font-size: 25px;
   font-family: 'Playfair Display', serif; /* elegant serif font */
   cursor: pointer;
   padding: 10px 25px;
@@ -1324,7 +1338,7 @@ hr {
   padding-top: 36px;
   /* grid-template-columns: 2fr 2fr; */
   grid-template-columns: repeat(4, 1fr);
-  gap: 36px;
+  gap: 15px;
   align-items: start;
 }
 
@@ -1354,19 +1368,19 @@ hr {
 
 .project-title {
   font-family: 'Playfair Display', serif;
-  font-size: 1.7rem;
+  font-size: 32px;
   margin: 6px 0;
   color: #FAF9F7;
 }
 
 .project-location {
-  font-size: 1rem;
+  font-size: 16px;
   color: #bfc9d0; /* soft muted light */
   margin-bottom: 6px;
 }
 
 .project-desc {
-  font-size: 1.05rem;
+  font-size: 16px;
   color: #d7dfe6;
   line-height: 1.4;
   max-width: 80%;
@@ -1531,6 +1545,9 @@ hr {
 
 /* Show hamburger only on small screens */
 @media (max-width: 768px) {
+    .logo img {
+            width: 135px;
+        }
     .hamburger {
         display: block;
         font-size: 1.8rem;
@@ -1545,10 +1562,9 @@ hr {
     /* Slide menu (example style, adjust as needed) */
     .nav-menu {
         position: fixed;
-        top: 0;
         left: -100%;
         width: 70%;
-        height: 100vh;
+        height: 190vh;
         background: #0c1a2b;
         display: flex;
         flex-direction: column;
@@ -1561,6 +1577,9 @@ hr {
     .nav-menu.active {
         left: 0;
     }
+        .hero-about{
+            height: 35vh;
+        }
     .about-content {
             padding: 40px 20px;
     }
@@ -1603,11 +1622,15 @@ hr {
             font-family: 'Lato', sans-serif;
             font-size: 1.2rem;
             color: #ffffff;
+            margin-bottom: 10px;
             padding: 0px 50px;
         
     }
+        .testimonials{
+            margin-top: 50px;
+        }
         .partner-logos h2{
-            font-size: 2.5rem;
+            font-size: 50px;
         }
         .logos {
             display: flex;
@@ -1636,7 +1659,7 @@ hr {
         }
         .testimonial-text,.our-testimonial-text{
             font-size: 1.3rem;
-            height: 100px;
+            height: 90px;
         }
         .read-more, .our-read-more {
             font-size: 1.3rem;
@@ -1653,6 +1676,9 @@ hr {
         }
         .stars,.our-stars{
             font-size: 15px;
+        }
+        .cta-section{
+            padding: 20px 20px;
         }
                 .footer {
                     background-color: #0C1A2B;
@@ -1701,12 +1727,12 @@ hr {
     display: grid;
     padding-top: 36px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 36px;
+    gap: 15px;
     align-items: start;
 }
 .project-category-nav li {
     color: #e5e5e5;
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Playfair Display', serif;
     cursor: pointer;
     padding: 10px 10px;
@@ -1756,6 +1782,7 @@ hr {
                     font-size: 2.5rem;
                 }
                 .hero-content-about h1{
+                    margin-top: 70px;
                     font-size: 2.5rem;
                 }
                 .footer-bottom {
